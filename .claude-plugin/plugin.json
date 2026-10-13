@@ -1,0 +1,11 @@
+{
+  "name": "yachtfinder",
+  "displayName": "YachtFinder",
+  "version": "1.0.0",
+  "description": "Research yachts the way a professional does: check a yacht before an offer, build a charter shortlist, or write a market brief, from YachtFinder's catalogue of yachts for sale, for charter and reported sold. Every figure comes from YachtFinder's connector, dated and linked to the yacht's page. It can also prepare a request to a yacht's broker, which only you can send.",
+  "author": { "name": "YachtFinder", "email": "info@yachtfinder.co", "url": "https://yachtfinder.co" },
+  "homepage": "https://mcp.yachtfinder.co/",
+  "repository": "https://github.com/bcaldwell21/yachtfinder-plugin",
+  "license": "MIT",
+  "keywords": ["yachts", "yacht sales", "yacht charter", "superyachts", "AIS", "market research"]
+}
