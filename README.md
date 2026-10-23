@@ -4,7 +4,7 @@ Research yachts the way a professional does, inside your assistant. This plugin 
 
 ## What it adds
 
-- **The YachtFinder connector** (`https://mcp.yachtfinder.co/mcp`, the same server as the YachtFinder connector in the directory): three read-only tools that find yachts by builder, length, asking price, build year, status and place; list the yachts whose latest published AIS position is near a harbour, an anchorage or a coordinate; and give one yacht's facts with the source and date of each. A fourth tool prepares a request to a yacht's broker: you get a link to the filled-in request on yachtfinder.co, and nothing is sent until you sign in there and press Send.
+- **The YachtFinder connector** (`https://mcp.yachtfinder.co/mcp`, the same server as the YachtFinder connector in the directory): three read-only tools that find yachts by builder, length, asking price, build year, status and place; list the yachts whose latest published AIS position is near a harbour, an anchorage or a coordinate; and give one yacht's facts with the source and date of each. A fourth tool, `prepare_inquiry`, prepares a request about one yacht for you to send: it saves a draft and gives you one link to it on yachtfinder.co. It never sends anything: you read and edit the draft there, sign in, and only your tap on Send sends it.
 - **Check a yacht before an offer** (`check-a-yacht`): her record, how her asking price sits against YachtFinder's estimate and against similar yachts for sale and reported sold, conflicts between where her listing says she is and where AIS last placed her, and the questions to put to her broker.
 - **Build a charter shortlist** (`charter-shortlist`): yachts for charter by size, guests, budget and place, with each published weekly rate and its season, and where each was last seen.
 - **Write a market brief** (`market-brief`): for a builder, a length or price band, or a place, how many yachts are for sale, the asking-price range and median, how many are price on application, how many are reported sold, and the notable yachts.
@@ -16,6 +16,7 @@ Ask in your own words, for example:
 - "I'm thinking of making an offer on Lady Lara. What should I check first?"
 - "Shortlist yachts I could charter in Greece next summer for 10 guests, 40 to 50 metres."
 - "Give me a market brief on Benetti yachts between 40 and 50 metres for sale."
+- "Prepare a request to Lady Lara's broker asking about her last survey." (You get a link to the draft; nothing is sent until you sign in on yachtfinder.co and tap Send.)
 
 Every figure in an answer comes from YachtFinder's records, with the date the catalogue was built and a link to each yacht's page on yachtfinder.co. An asking price is always the broker's asking price, never a sale price; the plugin's tools return no sale prices. YachtFinder's estimate is a model, not an appraisal. A position is an AIS fix with its time. When a fact is not in the record, the answer says so instead of guessing.
 
